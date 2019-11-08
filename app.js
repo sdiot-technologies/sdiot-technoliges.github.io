@@ -30,7 +30,7 @@ app.set('view engine', 'ejs')
 app.use(logRequest)
 app.use(helmet())
 
-//app.use(enforceHTTPS)
+app.use(enforceHTTPS)
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
