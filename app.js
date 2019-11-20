@@ -37,7 +37,7 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(multer().array())
 
 app.get('/', (req, res) => {
-  res.render('pages/index')
+  res.render('pages/landing-page')
 })
 
 app.post('/message', (req, res) => {

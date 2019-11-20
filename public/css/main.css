@@ -3,10 +3,63 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
-  overflow: hidden;
+  overflow: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+a:hover {
+  color: #383636;
+  cursor: pointer;
+}
+
+i {
+  font-size: 28px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.address-row {
+  margin-top: 1.2rem;
+  display: flex;
+  align-items: flex-start;
+}
+
+.address-row * {
+  padding: 0 1rem;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.content section {
+  padding: 5rem 0;
 }
 
 #bm {
   width: 100%;
   height: 100%;
+}
+
+.logo {
+  width: 30%;
+  padding: 5rem 0;
+}
+
+.social-media-bar {
+  display: flex;
+  align-items: center;
+  margin-top: 1.2rem;
+}
+.social-media-bar * {
+  margin-right: 1rem;
 }
