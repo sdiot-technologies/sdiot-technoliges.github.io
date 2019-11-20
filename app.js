@@ -40,6 +40,10 @@ app.get('/', (req, res) => {
   res.render('pages/landing-page')
 })
 
+app.get('/privacy-policy', (req, res) => {
+  res.render('pages/privacy-policy')
+})
+
 app.post('/message', (req, res) => {
   console.log("MESSAGE: POST")
   // get the email from the req body
