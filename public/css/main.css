@@ -4,6 +4,18 @@ body {
   height: 100%;
   margin: 0;
   overflow: auto;
+  font-size: 24px;
+}
+h4 {
+  font-size: 32px;
+}
+
+.logo-container {
+  margin-top: 4rem;
+}
+
+.logo {
+  width: 30%;
 }
 
 a {
@@ -27,6 +39,10 @@ body {
   flex-direction: column;
 }
 
+h4 {
+  padding-bottom: 1.3rem;
+}
+
 .address-row {
   margin-top: 1.2rem;
   display: flex;
@@ -42,7 +58,7 @@ body {
 }
 
 .content section {
-  padding: 5rem 0;
+  padding-top: 5rem;
 }
 
 #bm {
@@ -50,16 +66,33 @@ body {
   height: 100%;
 }
 
-.logo {
-  width: 30%;
-  padding: 5rem 0;
-}
+
 
 .social-media-bar {
   display: flex;
   align-items: center;
-  margin-top: 1.2rem;
+  margin: 1.2rem 0 2rem 0;
 }
+
 .social-media-bar * {
   margin-right: 1rem;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 767.98px) {
+  
+  .logo-container {
+    margin: 3rem 0
+  }
+
+  .logo {
+    width: 75%;
+  }
+
+  body {
+    padding: 2rem;
+  }
+}
+
