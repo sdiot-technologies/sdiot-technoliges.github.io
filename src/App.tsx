@@ -9,7 +9,7 @@ import {
 
 function App() {
   return (
-    <div className="p-4 m-auto max-w-4xl min-h-screen font-base flex flex-col items-center justify-around">
+    <div className="p-4 m-auto max-w-5xl min-h-screen font-base flex flex-col items-center justify-around">
       <div className="w-full">
         <img
           className="py-16 my-5 w-40"
@@ -17,7 +17,7 @@ function App() {
           alt="Sdiot Technologies Private Limited Logo"
         />
         <div className="py-10">
-          <h1 className="uppercase text-4xl font-header font-black tracking-wider my-5">
+          <h1 className="uppercase text-4xl font-header font-extrabold tracking-wider my-5">
             About
           </h1>
           <p className="max-w-xs font-base tracking-wide">
@@ -28,7 +28,7 @@ function App() {
       </div>
       <div className="w-full py-10 mb-10">
         <div className="text-right">
-          <h1 className="uppercase text-4xl font-header font-black my-5">
+          <h1 className="uppercase text-4xl font-header font-extrabold my-5">
             Reach us
           </h1>
           <address className="not-italic tracking-wide">
