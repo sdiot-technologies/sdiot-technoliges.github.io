@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Gidole;
+    font-weight: 400;
+    src: url(./fonts/gidole-regular-webfont.woff) format("woff");
+  }
+  @font-face {
+    font-family: Montserrat;
+    font-weight: 900;
+    src: url(./fonts/Montserrat-Black.woff) format("woff");
+  }
+  @font-face {
+    font-family: Montserrat;
+    font-weight: 800;
+    src: url(./fonts/Montserrat-ExtraBold.woff) format("woff");
+  }
+}
